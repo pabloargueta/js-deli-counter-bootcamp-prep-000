@@ -16,6 +16,7 @@ function takeANumber(katzDeliLine) {
 console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
+console.log(nowServing(katzDeliLine))
 console.log(takeANumber(katzDeliLine))
 
 
