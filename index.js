@@ -13,7 +13,7 @@ function takeANumber(katzDeliLine) {
   return (`You are number ${numCounter} in line.`);
 }
 
-console.log(takeANumber["pablo", "steven"])
+console.log(takeANumber(["pablo", "steven"]))
 
 
 //now serving function
