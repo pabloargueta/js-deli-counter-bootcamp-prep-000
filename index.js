@@ -16,7 +16,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 
-//now ser function
+//now serving function
 function nowServing(katzDeliLine) {
   
    var nextCustomer; //hold the customer name that we will remove from the front of the queue/array
