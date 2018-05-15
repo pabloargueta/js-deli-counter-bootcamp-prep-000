@@ -3,16 +3,15 @@
 //At the beginning of the day the array is empty.
 var katzDeliLine = [];
 
+let numCounter = 0;
+
 //take number function
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name); //to add to the back of the queue
-  var positionInLine = 0; //variable to hold position in line
-  for(var i = 0; i < katzDeliLine.length; i++) {
-    if (katzDeliLine[i] === name){
-      positionInLine = i + 1;
-    }
+function takeANumber(katzDeliLine, number) {
+  katzDeliLine.push(counter + 1);
+  
+  counter++;
   }
-  return (`Welcome, ${name}. You are number ${positionInLine} in line.`);
+  return (`You are number ${katzDeliLine[counter - 1]} in line.`);
 }
 
 
