@@ -6,12 +6,11 @@ var katzDeliLine = [];
 let numCounter = 0;
 
 //take number function
-function takeANumber(katzDeliLine, number) {
-  katzDeliLine.push(counter + 1);
-  
-  counter++;
-  }
-  return (`You are number ${katzDeliLine[counter - 1]} in line.`);
+function takeANumber(katzDeliLine) {
+  numCounter++;
+  katzDeliLine.push(numCounter);
+
+  return (`You are number ${numCounter} in line.`);
 }
 
 
